@@ -18,7 +18,7 @@ ESM-2 is a transformer protein language model, trained on protein sequence data 
 
 ## Dataset Curation and Model Fine-Tuning
 
-The fine-tuning [dataset]([https://www.rapidnovor.com/identifying-cdrs-antibody-sequencing/](https://huggingface.co/datasets/vrhoward/thermostableProteins/viewer/default/train)) is composed of
+The fine-tuning [dataset](https://huggingface.co/datasets/vrhoward/thermostableProteins/viewer/default/train) is composed of
 1) CoV-S sequences containing experimentally-determined prefusion-stabilizing mutations
 2) RSV-F sequences containing experimentally-determined prefusion-stabilizing mutations
 3) Other viral glycoprotein sequences containing experimentally-determined prefusion-stabilizing mutations
