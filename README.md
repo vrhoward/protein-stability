@@ -30,15 +30,23 @@ For fine-tuning, the dataset was shuffled and split into a training set and a te
 3) In 10% of the cases, the masked amino acids are replaced by a random amino acid (different) from the one they replace.
 4) In the 10% remaining cases, the masked amino acids are left as is.
 
+The training procedure and loss values can be found in the [model card](https://huggingface.co/vrhoward/esm2_t12_35M_UR50D-finetuned).
 
+The perplexity of the model was measured at the beginning and at the end of the fine-tuning procedure. A lower perplexity score means a better language model, and we achieved a large reduction in perplexity after fine-tuning: from 7.83 to 1.77. This reduction tells us the model has learned something about the domain of thermostable proteins.
 
 ## Demo
 
+The model can be demoed in multiple ways:
+1) 
 
 ## Critical Analysis
 Answer one or more of the following questions: What is the impact of this project? What does it reveal or suggest? What is the next step?
 
 ## Additional Resources and Links
+
+Ching-Lin Hsieh et al., Structure-based design of prefusion-stabilized SARS-CoV-2 spikes. Science 369, 1501-1505(2020). DOI:10.1126/science.abd0826
+
+Devlin, Jacob et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” North American Chapter of the Association for Computational Linguistics (2019).
 
 
 
