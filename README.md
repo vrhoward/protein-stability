@@ -46,9 +46,15 @@ Answer one or more of the following questions: What is the impact of this projec
 
 ## Additional Resources and Links
 
-Ching-Lin Hsieh et al., Structure-based design of prefusion-stabilized SARS-CoV-2 spikes. Science 369, 1501-1505(2020). DOI:10.1126/science.abd0826
+**1) Stabilizing mutations and the COVID-19 Vaccine:** Ching-Lin Hsieh et al., Structure-based design of prefusion-stabilized SARS-CoV-2 spikes. Science 369, 1501-1505(2020). DOI:10.1126/science.abd0826
 
-Devlin, Jacob et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” North American Chapter of the Association for Computational Linguistics (2019).
+**2) The GitHub repository for the ESM suite of models:** https://github.com/facebookresearch/esm
+
+**3) Masked Language Modeling Procedure, inspired by BERT:** Devlin, Jacob et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” North American Chapter of the Association for Computational Linguistics (2019).
+
+**4) Read more on choosing perplexty for masked language modelling:** https://huggingface.co/learn/nlp-course/chapter7/3?fw=pt
+
+
 
 
 
