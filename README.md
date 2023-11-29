@@ -68,6 +68,10 @@ The fine-tuned model can be demoed in multiple ways:
 
 **5) Use tools like AlphaFold to determine useful positions:** Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
 
+## Video Recording
+
+https://github.com/vrhoward/protein-stability/assets/107573643/a6104405-23cc-4fec-8656-356cdd6d5dcd
+
 
 
 
