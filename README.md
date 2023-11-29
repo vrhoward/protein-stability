@@ -10,7 +10,7 @@ A common strategy in vaccine development against viral antigens involves stabili
 
 Figure adopted from [Hsieh et al.](https://www.science.org/doi/10.1126/science.abd0826).
 
-Despite the obvious importance of these efforts, the discovery of stabilizing mutations is a time-consuming process. In light of recent global events, rapid and efficient vaccine development is vital. Here, we seek to leverage the power of transformer models to identify useful mutations and advance vaccine development.
+Despite the obvious importance of these efforts, the discovery of stabilizing mutations remains a time-consuming process. In light of recent global events, rapid and efficient vaccine development is vital. Here, we seek to leverage the power of transformer models to identify useful mutations and advance vaccine development.
 
 ## Base model: ESM-2
 
@@ -42,7 +42,19 @@ The fine-tuned model can be demoed in multiple ways:
 3) The on-demand Inference API available in the [model card](https://huggingface.co/vrhoward/esm2_t12_35M_UR50D-finetuned).
 
 ## Critical Analysis
-Answer one or more of the following questions: What is the impact of this project? What does it reveal or suggest? What is the next step?
+
+**Benefits**
+1) This work has introduced a freshly curated dataset for protein stability, including viral glycoproteins.
+2) The results of this work have the potential to greatly impact the fields of structural biology and vaccinology through the introduction of a new method for rapid protein stabilization design.
+
+**Limitations**
+1) The model does not provide insight as to which amino acids should be mutated. However, researchers can rely on structure prediction tools, such as AlphaFold, to determine potentially useful sequence positions.
+2) Experimental work must still be conducted in order to determine whether or not the recommended mutations will work to stabilize the protein structure.
+
+**Future Steps**
+1) Continue to curate the dataset of thermostable protein sequences, particularly for viral proteins.
+2) Train the larger model versions (650M parameters vs. 35M)
+3) Add functionality to determine stabilizing mutation *groups*.
 
 ## Additional Resources and Links
 
@@ -53,6 +65,8 @@ Answer one or more of the following questions: What is the impact of this projec
 **3) Masked Language Modeling Procedure, inspired by BERT:** Devlin, Jacob et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” North American Chapter of the Association for Computational Linguistics (2019).
 
 **4) Read more on choosing perplexity as a masked language modelling metric:** https://huggingface.co/learn/nlp-course/chapter7/3?fw=pt
+
+**5) Use tools like AlphaFold to determine useful positions:** Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
 
 
 
