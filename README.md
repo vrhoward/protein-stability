@@ -36,8 +36,10 @@ The perplexity of the model was measured at the beginning and at the end of the 
 
 ## Demo
 
-The model can be demoed in multiple ways:
-1) 
+The fine-tuned model can be demoed in multiple ways:
+1) Inference via a Jupyter Notebook.
+2) A user-friendly [HuggingFace Space](https://huggingface.co/spaces/vrhoward/protfill) powered by Gradio.
+3) The on-demand Inference API available in the [model card](https://huggingface.co/vrhoward/esm2_t12_35M_UR50D-finetuned).
 
 ## Critical Analysis
 Answer one or more of the following questions: What is the impact of this project? What does it reveal or suggest? What is the next step?
