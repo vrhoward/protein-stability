@@ -8,6 +8,8 @@ A common strategy in vaccine development against viral antigens involves stabili
 
 <img width="558" alt="Screen Shot 2023-11-29 at 8 16 54 AM" src="https://github.com/vrhoward/protein-stability/assets/107573643/5a049f03-62ba-4e4f-b983-800fab1c89b7">
 
+Figure adopted from [Hsieh et al.](https://www.science.org/doi/10.1126/science.abd0826).
+
 Despite the obvious importance of these efforts, the discovery of stabilizing mutations is a time-consuming process. In light of recent global events, rapid and efficient vaccine development is vital. Here, we seek to leverage the power of transformer models to identify useful mutations and advance vaccine development.
 
 ## Base model: ESM-2
