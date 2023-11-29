@@ -2,17 +2,15 @@
 
 ## Why do we care about protein stability?
 
-Improving protein stability is critical in the fields of structural biology and molecular biophysics as increased stability enhances functional efficacy, which plays an important role in various biological processes. In the fields of immunology and vaccinology, understanding and predicting mutations that can enhance protein stability can be pivotal in drug development. 
+Protein stability is a critical aspect of protein biology as it plays an important role in structure-function relationships. In the fields of structural biology and molecular biophysics, understanding the mutations that contribute to protein stability can provide insights into protein folding and functional efficacy. This knowledge is crucial for rational protein design, where proteins are engineered for specific functions. This concept extends into the fields of immunology and vaccinology, where stability is a key factor in the development of therapeutic proteins or vaccines: more stable proteins can withstand various physiological conditions, have longer shelf-lives, and may elicit a more robust immune response.
 
-Particularly, discovering stabilizing mutations within antigenic targets can not only stimulate greater immune response, but also increase protein yield and 
-
+A common strategy in vaccine development against viral antigens involves stabilization of the prefusion conformation of the viral glycoprotein. These proteins, such as the spike (S) protein in SARS-CoV-2 (shown below), exist in a metastable prefusion conformation prior to contact with host-cell surface receptors. Upon binding to host receptors, the glycoprotein enters the postfusion conformation to facilitate viral-host membrane fusion and subsequent viral entry. It has thus become increasingly important to design prefusion-stabilized glycoprotein complexes for vaccines, allowing hosts to develop immune defense against the viruses before infection.
 
 <img width="558" alt="Screen Shot 2023-11-29 at 8 16 54 AM" src="https://github.com/vrhoward/protein-stability/assets/107573643/5a049f03-62ba-4e4f-b983-800fab1c89b7">
 
-rapid and efficient vaccine development is vital
+Despite the obvious importance of these efforts, the discovery of stabilizing mutations is a time-consuming process. In light of recent global events, rapid and efficient vaccine development is vital. Here, we seek to leverage the power of transformer models to identify useful mutations and advance vaccine development.
 
-
-## ESM-2
+## Base model: ESM-2
 
 ESM-2 is a transformer protein language model, trained on protein sequence data without label supervision. The model is pretrained on Uniref50 with an unsupervised masked language modeling (MLM) objective, meaning the model is trained to predict amino acids from the surrounding sequence context. This pretraining objective allows ESM-2 to learn generally useful features which can be transferred to downstream prediction tasks.
 
@@ -52,7 +50,7 @@ Answer one or more of the following questions: What is the impact of this projec
 
 **3) Masked Language Modeling Procedure, inspired by BERT:** Devlin, Jacob et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” North American Chapter of the Association for Computational Linguistics (2019).
 
-**4) Read more on choosing perplexty for masked language modelling:** https://huggingface.co/learn/nlp-course/chapter7/3?fw=pt
+**4) Read more on choosing perplexity as a masked language modelling metric:** https://huggingface.co/learn/nlp-course/chapter7/3?fw=pt
 
 
 
